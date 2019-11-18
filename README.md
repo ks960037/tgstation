@@ -33,12 +33,19 @@ docker run -d -p <your port>:1337 -v /path/to/your/config:/tgstation/config -v /
 ## INSTALLATION
 
 First-time installation should be fairly straightforward. First, you'll need
-BYOND installed. You can get it from https://www.byond.com/download. Once you've done
-that, extract the game files to wherever you want to keep them. This is a
+首次安装应该相当简单。 首先，您需要
+BYOND installed. You can get it from https://www.byond.com/download. Once you've done that,
+BYOND已安装。 您可以从https://www.byond.com/download获得。 完成后
+extract the game files to wherever you want to keep them. This is a
+将游戏文件提取到任何您想要保留的位置。 这是一个
 sourcecode-only release, so the next step is to compile the server files.
+仅源代码版本，因此下一步是编译服务器文件。
 Open tgstation.dme by double-clicking it, open the Build menu, and click
+双击打开tgstation.dme，打开Build菜单，然后单击
 compile. This'll take a little while, and if everything's done right you'll get
+编译。 这需要一些时间，如果一切正确，您会得到
 a message like this:
+像这样的消息：
 
 ```
 saving tgstation.dmb (DEBUG mode)
